@@ -1,0 +1,149 @@
+body {
+    background-color: #181818;
+    
+  }
+.main{
+    background-color: #181818;
+    color: #fff;
+}
+.content{
+    text-align: center;
+    margin: 20px;
+
+}
+.content-item{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    text-align: center;
+  
+    border: 1px solid;
+    border-color: #D3D3D3;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.content-item h4{
+    color: #000;
+    padding: 20px;
+}
+.content-item p{
+    color: #000;
+    padding: 20px;
+
+}
+.button{
+    width: 120px;
+    text-align: center;
+    align-self: center;
+    margin: 20px;
+}
+.gallery{
+    margin:150px 0;
+}
+.gallery .img{
+    text-align: center;
+}
+.img img{
+    border-radius: 7px;
+
+}
+.img-item{
+    margin: 20px;
+}
+.bth-seemore{
+    width: 100px;
+    color: #fff;
+    border: 1px solid;
+    height: 40px;
+    margin: 20px;
+    background-color: #181818;
+}
+.testimonials-content-item{
+    border: 1px solid;
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.testimonials-item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.testimonials-item .img{
+    padding-right: 10px;
+}
+.future{
+    background-color: #343434;
+    border-radius: 33px;
+    align-self: center;
+    margin-top: 70px;
+}
+.future-type{
+    align-self: center;
+    text-align: center;
+}
+.future-img img{
+    width: 500px;
+    height: 360px;
+}
+@media all and (max-width: 1200px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content1{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content1 .content-item{
+        width: 95%;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .button-see .button {
+        width: 75%;
+    }
+    .img-item{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .img-item .img{
+        width: 95%;
+    }
+    .gallery .img-item1{
+        display: none;
+    }
+    .gallery .icon-app{
+        display: none;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials-content .testimonials-content-item{
+        width: 95%;
+    }
+    .future .future-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .future .future-content .future-type{
+        width: 95%;
+    }
+    .future .future-content .future-img img{
+        width: 390px;
+    }
+}
